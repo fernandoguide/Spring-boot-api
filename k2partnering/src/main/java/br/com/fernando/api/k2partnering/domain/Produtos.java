@@ -1,11 +1,16 @@
 package br.com.fernando.api.k2partnering.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
 
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class Produtos implements Serializable {
     private static final long serialVersionUID = 1L;
 
@@ -28,19 +33,7 @@ public class Produtos implements Serializable {
 
     private String foto;
 
-    public Produtos() {
-    }
 
-    public Produtos(Integer id,Categorias categorias, String produto,Double preco ,
-                    Integer quantidade, String descricao, String foto) {
-        this.id = id;
-        this.categorias = categorias;
-        this.produto = produto;
-        this.preco = preco;
-        this.quantidade = quantidade;
-        this.descricao = descricao;
-        this.foto = foto;
-    }
 
     public Integer getId() {
         return id;

@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Data
@@ -19,4 +20,6 @@ public class Categorias implements Serializable {
     @Column(name = "id_categoria")
     private Integer id;
     private String categoria;
+
+
 }
