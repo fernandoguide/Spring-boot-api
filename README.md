@@ -10,7 +10,8 @@ MAVEN
 
 ```
 git clone https://github.com/fernandoguide/Spring-boot-api
-cd /Spring-boot-api/k2partnering
+
+cd Spring-boot-api/k2partnering 
 
 ./mvnw spring-boot:run
 
