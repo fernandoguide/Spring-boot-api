@@ -37,6 +37,6 @@ H2 DataBase
 para consultar as tabelas acesse 
 
 http://localhost:8080/h2-console
-User Name:	sa
-Password:  sa
+User Name: sa
+Password: sa
 ```
