@@ -19,7 +19,10 @@ API será executada em
 http://localhost:8080
 ```
 
-# Para acessar o SWAGGER 
+# SWAGGER 
+
+Com a aplicacao em execucao acessar: 
+
 ```
 http://localhost:8080/swagger-ui.html
 ```
