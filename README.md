@@ -10,7 +10,8 @@ MAVEN
 
 ```
 git clone https://github.com/fernandoguide/Spring-boot-api
-cd /Spring-boot-api/k2partnering
+
+cd Spring-boot-api/k2partnering 
 
 ./mvnw spring-boot:run
 
@@ -27,11 +28,15 @@ Com a aplicacao em execucao acessar:
 http://localhost:8080/swagger-ui.html
 ```
 
-Objeto do Postman para testar na raiz do projeto
+Collection na raiz do projeto
 
 # Banco de dados utilizado
 
 ```
 H2 DataBase
+para consultar as tabelas acesse 
 
+http://localhost:8080/h2-console
+User Name:	sa
+Password:  sa
 ```
