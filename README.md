@@ -27,7 +27,7 @@ Com a aplicacao em execucao acessar:
 http://localhost:8080/swagger-ui.html
 ```
 
-Objeto do Postman para testar na raiz do projeto
+# Collection do Postman na raiz do projeto
 
 # Banco de dados utilizado
 
