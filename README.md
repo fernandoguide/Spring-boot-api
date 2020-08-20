@@ -28,3 +28,10 @@ http://localhost:8080/swagger-ui.html
 ```
 
 Objeto do Postman para testar na raiz do projeto
+
+# Banco  utilizado
+
+```
+H2 DataBase
+
+```
