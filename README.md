@@ -4,7 +4,7 @@ API usando Java 11 e Spring Boot.
 Certifique-se de ter instalado:
 ```
 GIT
-JAVA 8 ou superior
+JAVA 11 ou superior
 MAVEN 
 ```
 
@@ -38,5 +38,5 @@ para consultar as tabelas acesse
 
 http://localhost:8080/h2-console
 User Name: sa
-Password: sa
+Password: 
 ```
