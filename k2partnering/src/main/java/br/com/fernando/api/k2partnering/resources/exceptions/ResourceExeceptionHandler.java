@@ -1,5 +1,6 @@
 package br.com.fernando.api.k2partnering.resources.exceptions;
 
+import br.com.fernando.api.k2partnering.service.exception.AuthorizationException;
 import br.com.fernando.api.k2partnering.service.exception.DataIntegrityExecpition;
 import br.com.fernando.api.k2partnering.service.exception.ObjectNotFoundExecpition;
 import org.springframework.http.HttpStatus;
@@ -24,5 +25,11 @@ public class ResourceExeceptionHandler {
         StandardError err = new StandardError (System.currentTimeMillis (), HttpStatus.BAD_REQUEST.value (),
                 "Integridade de dados", e.getMessage (), request.getRequestURI ());
         return ResponseEntity.status (HttpStatus.BAD_REQUEST).body (err);
+    }
+    @ExceptionHandler(AuthorizationException.class)
+    public ResponseEntity<StandardError> authorization(AuthorizationException e, HttpServletRequest request) {
+        StandardError err = new StandardError(System.currentTimeMillis(),
+                HttpStatus.FORBIDDEN.value(), "Acesso negado", e.getMessage(), request.getRequestURI());
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(err);
     }
 }

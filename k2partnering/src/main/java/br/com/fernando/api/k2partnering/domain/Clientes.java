@@ -11,7 +11,6 @@ import java.io.Serializable;
 @Entity
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
 public class Clientes implements Serializable {
     private static final long serialVersionUID = 1L;
 
@@ -29,4 +28,13 @@ public class Clientes implements Serializable {
     private String bairro;
     private String cep;
     private String estado;
+
+    public Clientes(Integer id, String nome , String email ) {
+        this.id = id;
+        this.nome =nome;
+        this.email = email;
+    }
+
+    public Clientes() {
+    }
 }
