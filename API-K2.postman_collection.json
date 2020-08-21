@@ -186,7 +186,7 @@
 							"variable": [
 								{
 									"key": "id",
-									"value": "2"
+									"value": "1"
 								}
 							]
 						}
@@ -200,7 +200,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"categoria\":\"Esporte\"\n}",
+							"raw": "{\n    \"nome\":\"Fernando\",\n    \"email\":\"fernando-guide@hotmail.com\",\n    \"senha\":\"admin\",\n    \"rua\":\"rua do meio\",\n    \"cidade\":\"Sao Paulo\",\n    \"bairro\":\"rua do meio\",\n    \"cep\":\"00506064\",\n    \"estado\":\"SP\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -374,7 +374,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"fernando\",\n    \"senha\": \"123\"\n}",
+							"raw": "{\n    \"email\": \"fernando-guide@hotmail.com\",\n    \"senha\": \"admin\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
